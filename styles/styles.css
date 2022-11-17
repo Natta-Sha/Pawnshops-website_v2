@@ -1,17 +1,49 @@
 /* font-family: 'Noto Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
+font-family: 'Raleway', sans-serif;
+#A7662B
+black
+white
 
-body {
-  background-color: red;
-}
-h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-}
+ */
 
+:root {
+  --branding-one-color: #a7662b;
+  --branding-two-color: #000;
+  --branding-three-color: #fff;
+
+  --header-font-family: "Raleway", sans-serif;
+  --other-font-family: "Noto Sans", sans-serif;
+  --p-font-size: 24px;
+  --h2-font-size: 58px;
+  --h1-font-size: 60px;
+}
+h2 {
+  font-family: var(--branding-two-color);
+  font-size: var(--h2-font-size);
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--branding-one-color);
+}
 p {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
-  font-weight: normal;
+  font-family: var(--other-font-family);
+  font-size: var(--p-font-size);
+  font-weight: 100;
+  line-height: 2.5;
+}
+
+.no-margin {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.no-margin-1 {
+  background-color: var(--branding-two-color);
+  color: var(--branding-three-color);
+}
+
+.no-margin-2 {
+  background-color: var(--branding-three-color);
+  color: var(--branding-two-color);
 }
