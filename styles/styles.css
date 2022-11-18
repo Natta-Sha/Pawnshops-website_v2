@@ -50,7 +50,11 @@ p {
 .btn-branding-black:hover {
   background: var(--branding-one-color);
   color: var(--branding-two-color);
+
   transition: all 200ms ease-in-out;
+}
+.h2-button {
+  margin-bottom: 150px;
 }
 
 .no-margin {
@@ -93,8 +97,9 @@ p {
   }
   .btn-branding-black {
     padding: 10px 20px;
+    line-height: 1;
   }
-}
-.h2-button {
-  margin-bottom: 100px;
+  .h2-button {
+    margin-bottom: 50px;
+  }
 }
