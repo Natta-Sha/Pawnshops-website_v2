@@ -35,6 +35,11 @@ p {
   font-weight: 100;
   line-height: 2.5;
 }
+.background-color {
+  background: var(--branding-four-color);
+  width: 100vw;
+  min-height: 100vh;
+}
 
 .btn-branding-black {
   background: var(--branding-two-color);
@@ -103,9 +108,4 @@ p {
   .h2-button {
     margin-bottom: 50px;
   }
-}
-
-.full-screen {
-  width: 100vw;
-  height: 100vh;
 }
