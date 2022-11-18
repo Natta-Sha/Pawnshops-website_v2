@@ -10,6 +10,7 @@ white
   --branding-one-color: #a7662b;
   --branding-two-color: #000;
   --branding-three-color: #fff;
+  --branding-four-color: #1d8c99;
 
   --header-font-family: "Raleway", sans-serif;
   --other-font-family: "PT Mono", monospace;
@@ -23,6 +24,10 @@ h2 {
   font-weight: 300;
   line-height: 1.5;
   color: var(--branding-one-color);
+}
+h2:hover {
+  color: var(--branding-four-color);
+  transition: all 200ms ease-in-out;
 }
 p {
   font-family: var(--other-font-family);
@@ -44,8 +49,8 @@ p {
 
 .btn-branding-black:hover {
   background: var(--branding-one-color);
-
   color: var(--branding-two-color);
+  transition: all 200ms ease-in-out;
 }
 
 .no-margin {
@@ -89,4 +94,7 @@ p {
   .btn-branding-black {
     padding: 10px 20px;
   }
+}
+.h2-button {
+  margin-bottom: 100px;
 }
