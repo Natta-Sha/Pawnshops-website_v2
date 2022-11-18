@@ -1,4 +1,4 @@
-/* font-family: 'Noto Sans', sans-serif;
+/* font-family: 'PT Mono', monospace;
 font-family: 'Raleway', sans-serif;
 #A7662B
 black
@@ -12,10 +12,10 @@ white
   --branding-three-color: #fff;
 
   --header-font-family: "Raleway", sans-serif;
-  --other-font-family: "Noto Sans", sans-serif;
-  --p-font-size: 24px;
-  --h2-font-size: 58px;
-  --h1-font-size: 60px;
+  --other-font-family: "PT Mono", monospace;
+  --p-font-size: 22px;
+  --h2-font-size: 54px;
+  --h1-font-size: 58px;
 }
 h2 {
   font-family: var(--branding-two-color);
@@ -75,6 +75,7 @@ p {
 }
 
 @media (max-width: 600px) {
+  .btn-branding-black,
   p,
   a {
     font-size: 16px;
@@ -84,5 +85,8 @@ p {
   }
   h1 {
     font-size: 32px;
+  }
+  .btn-branding-black {
+    padding: 10px 20px;
   }
 }
