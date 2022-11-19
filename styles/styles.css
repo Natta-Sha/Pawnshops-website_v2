@@ -37,7 +37,7 @@ a {
   line-height: 2.5;
 }
 .background-color {
-  background: var(--branding-two-color);
+  background: var(--branding-one-color);
   width: 100vw;
   min-height: 100vh;
 }
