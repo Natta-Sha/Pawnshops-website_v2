@@ -125,3 +125,8 @@ a {
     max-width: 100px;
   }
 }
+
+.image-screen {
+  max-width: 100vh;
+  margin-right: 0%;
+}
