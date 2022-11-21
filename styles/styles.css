@@ -38,7 +38,7 @@ a {
 }
 .background-color {
   background: var(--branding-one-color);
-  width: 100vw;
+  /* width: 100vw; */
   min-height: 100vh;
 }
 
